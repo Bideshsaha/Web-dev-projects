@@ -1,0 +1,38 @@
+.main-conatiner{
+    max-width: 350px;
+    /*border: 1px solid black;*/
+    padding: 0px ;
+    padding-top: 5px;
+    padding-left: 10px;
+    
+}
+.image{
+    width:95%;
+    border-radius: 10px;
+}
+.text-container{
+    width:300px
+ }
+.text-container>p{
+   font-size: 20px;
+}
+.price-container{    
+    display: flex;
+    gap: 15px;
+    
+}
+.price-container>p {
+    font-size: 16px;
+    font-family: Arial;
+    font-weight:bold;
+}
+
+.price-container>#p1 {
+    color: rgba(16, 16, 168, 0.865);
+}
+.price-container>#p3 {
+   background-color: rgb(27, 203, 151);
+   border-radius: 3px;
+   font-size: 15px;
+   color: white;
+}
