@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bt1{
+    width: fit-content;
+    color: white;
+    padding: 0.8rem 2.3rem;
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(232, 89, 89);
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative; 
+    z-index: 1;  
+
+}
+
+.bt1::before {
+    content: "";
+    position: absolute; 
+    background-color: black;
+    z-index: -1;
+    top: 0;
+    left : 0;
+    right: 0;
+    bottom: 0;
+    transform:scaleX(0);
+    transform-origin: left;
+    transition: all 0.8s;
+    
+}
+.bt1:hover::before {
+    transform: scaleX(1);
+}
