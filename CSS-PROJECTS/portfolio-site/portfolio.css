@@ -296,7 +296,7 @@ a{
   z-index:1;
 }
 .project-card:hover::before{
-  transform: scaleX(1);
+  transform:scaleX(1);
 }
 .project-number{
   position:absolute;
@@ -333,7 +333,7 @@ a{
   left: 10%;
 }
 .project-content-right{ 
-  right:10%;
+  right:-8%;
 }
 .project-skills-container{
   width:60%;
@@ -371,6 +371,9 @@ a{
 }
 .icon:hover {
   color: var(--bgOrange);
+}
+.project-card:hover .project-content{
+  transform: scale(1.1);
 }
 
 #project2{
